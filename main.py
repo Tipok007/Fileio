@@ -1,5 +1,6 @@
 from tkinter import *
 import requests
+import pyperclip
 from tkinter import filedialog as fd
 from tkinter import messagebox as mb
 from tkinter import ttk
