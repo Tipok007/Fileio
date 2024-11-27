@@ -21,10 +21,13 @@ def save_history(file_path, download_link):
         json.dump(history, file, indent=4)
 
 
+
 def show_history():
     if not os.path.exists(history_file):
         messagebox.showinfo("История", "История загрузок пуста")
         return
+
+
 
     history_window = Toplevel(app)
     history_window.title("История Загрузок")
